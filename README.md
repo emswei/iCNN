@@ -3,4 +3,4 @@ This repository contains MATLAB / GNU Octave functions and scripts for demonstra
 
 Reference:
 
-Emmy S. Wei, "Aliasing-Free Convolutional Nonlinear Networks Using Implicitly Defined Functions," preprint, 2022 (https://hal.archives-ouvertes.fr/hal-03475613).
+Emmy S. Wei, "Aliasing-Free Nonlinear Signal Processing Using Implicitly Defined Functions", IEEE Access, 2022 (https://ieeexplore.ieee.org/document/9832878).
