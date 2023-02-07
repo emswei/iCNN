@@ -99,11 +99,11 @@ print('Denoiser MeanAbsoluteError =', MAE)
 denoiser_loss_list = history1.history['loss'] + history2.history['loss']
 denoiser_val_loss_list = history1.history['val_loss'] + history2.history['val_loss']
 
-denoiser_loss_file = open('DenoiserLoss.txt', 'w')
+denoiser_loss_file = open('LossInvar.txt', 'w')
 for loss in denoiser_loss_list:
     denoiser_loss_file.write(str(loss) + '\n')
 denoiser_loss_file.close()
-denoiser_val_loss_file = open('DenoiserValLoss.txt', 'w')
+denoiser_val_loss_file = open('ValLossInvar.txt', 'w')
 for loss in denoiser_val_loss_list:
     denoiser_val_loss_file.write(str(loss) + '\n')
 denoiser_val_loss_file.close()

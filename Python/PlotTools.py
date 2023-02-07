@@ -95,7 +95,7 @@ def DisplayShiftVariance(test_model, test_data, noise_data,
     cbar = grid23.cbar_axes[0].colorbar(im)
     cbar.ax.set_yticks(np.arange(0, 1.1, 0.5))
     cbar.ax.set_yticklabels(['0.0', '0.5', '1.0'])
-    
+
     decoded_back = tf.roll(decoded_shift, -shift, axis=1)
     shift_variance = decoded_back - decoded_zero
     print('Max shift variance =', np.max(shift_variance))
